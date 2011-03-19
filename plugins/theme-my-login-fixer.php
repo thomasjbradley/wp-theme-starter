@@ -1,6 +1,6 @@
 <?php
 /**
- *	Fixes Theme My Logins overwriting of page titles
+ *	Fixes Theme My Login's clobbering of page titles
  */
 function tml_remove_title_filter($title)
 {
