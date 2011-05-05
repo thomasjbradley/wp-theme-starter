@@ -10,7 +10,11 @@
 	<title><?php wp_title(' · '); ?></title>
 	<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
 	<script src="<?php sd(); ?>/js/modernizr.1.7.custom.min.js"></script>
-	<?php wp_head(); ?>
+	<?php
+		ob_start();
+		wp_head();
+		echo clean_wp_head(ob_get_clean());
+	?>
 </head>
 <body role="document"<?php echo (isset($body_class)) ? ' class="' . $body_class . '"' : ''; ?>>
 

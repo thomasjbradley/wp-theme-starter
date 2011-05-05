@@ -65,6 +65,40 @@ function fix_name($name)
 }
 
 /**
+ *	Use to properly sort custom posts by title
+ */
+function sort_post_title($a, $b)
+{
+	if($a->post_title == $b->post_title) return 0;
+	return ($a->post_title < $b->post_title) ? -1 : 1;
+}
+
+/**
+ *	Some actions added to wp_head cannot be found
+ *	Brute force clearing of stuff put into the head by plugins
+ */
+function clean_wp_head($head)
+{
+	$search = array(
+		'@\s*<meta\s+name\s*\=\s*["\'][^\'"]*["\']\s+content\s*\=\s*["\'][^\'"]*["\']\s*/?>\s*@i' // meta robots
+		,'@\s*<style.*>.*</style>\s*@i' // extraneous styles
+		,'@\s*<!--.+-->\s*@i' // stupid comments
+		,'@\s*/>@' // extra XML self-closing slashes
+		);
+		
+	$replace = array(
+		''
+		,''
+		,''
+		,'>'
+		);
+		
+	$head = preg_replace($search, $replace, $head);
+	
+	return $head;
+}
+
+/**
  *	Remove some stuff that is generated in the wp_head()
  */
 // Remove the RSD link
@@ -73,6 +107,8 @@ remove_action('wp_head', 'rsd_link');
 remove_action('wp_head', 'wlwmanifest_link');
 // Remove generator tag
 remove_action('wp_head', 'wp_generator');
+// Cimy Extra Fields styles
+wp_deregister_style('cimy_uef_register');
 
 /**
  *	WPML Theme Integration
