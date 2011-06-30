@@ -18,8 +18,8 @@ Plugins
 - WordPress SEO by Yoast
   <http://wordpress.org/extend/plugins/wordpress-seo/>
 
-- Google Analytics for WordPress
-  <http://wordpress.org/extend/plugins/google-analytics-for-wordpress/>
+- Google Analyticator
+  <http://wordpress.org/extend/plugins/google-analyticator/>
 
 - WPML
   <http://wordpress.org/extend/plugins/sitepress-multilingual-cms/>

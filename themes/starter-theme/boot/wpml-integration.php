@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 // HOME URL
 // USAGE: replace references to the blog home url such as:
@@ -17,8 +17,6 @@ function wpml_get_home_url(){
     }
 }
 
-
-
 // LANGUAGE SELECTOR
 // USAGE place this on the single.php, page.php, index.php etc... - inside the loop
 // function wpml_content_languages($args)
@@ -35,16 +33,15 @@ function wpml_content_languages($args=''){
             }
             echo join(', ', $langs);
             echo isset($after) ? $after : '';
-        }    
+        }
     }
-} 
-
+}
 
 // LINKS TO SPECIFIC ELEMENTS
 // USAGE
 // args: $element_id, $element_type='post', $link_text='', $optional_parameters=array(), $anchor='', $echoit = true
 function wpml_link_to_element($element_id, $element_type='post', $link_text='', $optional_parameters=array(), $anchor='', $echoit = true){
-    if(!function_exists('icl_link_to_element')){    
+    if(!function_exists('icl_link_to_element')){
         switch($element_type){
             case 'post':
             case 'page':
@@ -54,7 +51,7 @@ function wpml_link_to_element($element_id, $element_type='post', $link_text='', 
                 }else{
                     $ret .= get_the_title($element_id);
                 }
-                $ret .= '<a>'; 
+                $ret .= '<a>';
                 break;
             case 'tag':
             case 'post_tag':
@@ -62,16 +59,16 @@ function wpml_link_to_element($element_id, $element_type='post', $link_text='', 
                 $ret = '<a href="'.get_tag_link($element_id).'">' . $tag->name . '</a>';
             case 'category':
                 $ret = '<a href="'.get_tag_link($element_id).'">' . get_the_category_by_ID($element_id) . '</a>';
-            default: $ret = '';           
+            default: $ret = '';
         }
         if($echoit){
             echo $ret;
         }else{
             return $ret;
-        }        
+        }
     }else{
         return icl_link_to_element($element_id, $element_type, $link_text, $optional_parameters, $anchor, $echoit);
-    }        
+    }
 }
 
 // Languages links to display in the footer
@@ -98,7 +95,7 @@ function wpml_languages_list($skip_missing=0, $div_id = "footer_language_list"){
 }
 
 function wpml_languages_selector(){
-    do_action('icl_language_selector');    
+    do_action('icl_language_selector');
 }
 
 function wpml_t($context, $name, $original_value){
@@ -112,7 +109,7 @@ function wpml_t($context, $name, $original_value){
 function wpml_register_string($context, $name, $value){
     if(function_exists('icl_register_string') && trim($value)){
         icl_register_string($context, $name, $value);
-    }    
+    }
 }
 
 function wpml_get_object_id($element_id, $element_type='post', $return_original_if_missing=false, $ulanguage_code=null){
@@ -120,47 +117,45 @@ function wpml_get_object_id($element_id, $element_type='post', $return_original_
         return icl_object_id($element_id, $element_type, $return_original_if_missing, $ulanguage_code);
     }else{
         return $element_id;
-    }    
+    }
 }
 
 function wpml_default_link($anchor){
     global $sitepress;
     $qv = false;
-    
+
     if(is_single()){
         $qv = 'p=' . get_the_ID();
     }elseif(is_page()){
         $qv = 'page_id=' . get_the_ID();
     }elseif(is_tag()){
-        $tag = &get_term(intval( get_query_var('tag_id') ), 'post_tag', OBJECT, 'display');        
+        $tag = &get_term(intval( get_query_var('tag_id') ), 'post_tag', OBJECT, 'display');
         $qv = 'tag=' . $tag->slug;
-    }elseif(is_category()){        
+    }elseif(is_category()){
         $qv = 'cat=' . get_query_var('cat');
-    }elseif(is_year()){        
+    }elseif(is_year()){
         $qv = 'year=' . get_query_var('year');
-    }elseif(is_month()){        
+    }elseif(is_month()){
         $qv = 'm=' . get_query_var('year') . sprintf('%02d', get_query_var('monthnum'));
-    }elseif(is_day()){        
+    }elseif(is_day()){
         $qv = 'm=' . get_query_var('year') . sprintf('%02d', get_query_var('monthnum')) . sprintf('%02d', get_query_var('day'));
-    }elseif(is_search()){        
+    }elseif(is_search()){
         $qv = 's=' . get_query_var('s');
     }elseif(is_tax()){
-        $qv = get_query_var('taxonomy') . '=' . get_query_var('term');        
+        $qv = get_query_var('taxonomy') . '=' . get_query_var('term');
     }
-    
+
     if(false !== strpos(wpml_get_home_url(),'?')){
         $url_glue = '&';
     }else{
         $url_glue = '?';
     }
-    
+
     if($qv){
         $link = '<a href="' .  $sitepress->language_url($sitepress->get_default_language()) . $url_glue . $qv . '" rel="nofollow">' . $anchor . '</a>';
     }else{
         $link = '';
-    } 
+    }
 
     return $link;
 }
-
-?>
