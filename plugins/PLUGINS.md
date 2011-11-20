@@ -45,6 +45,9 @@ Plugins
 - Shiba Media Library
   <http://shibashake.com/wordpress-theme/media-library-plus-plugin>
 
+- Unattach
+  <http://wordpress.org/extend/plugins/unattach/>
+
 - Members
   <http://wordpress.org/extend/plugins/members/>
 
