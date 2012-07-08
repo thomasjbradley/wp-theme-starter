@@ -87,3 +87,6 @@
 
 - Jetpack
   <http://jetpack.me/>
+
+- Developer
+  <http://vip.wordpress.com/2012/06/27/developer-plugin-v1-0/>
