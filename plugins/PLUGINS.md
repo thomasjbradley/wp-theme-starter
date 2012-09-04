@@ -90,3 +90,6 @@
 
 - Developer
   <http://vip.wordpress.com/2012/06/27/developer-plugin-v1-0/>
+
+- Search & Replace
+  <http://interconnectit.com/124/search-and-replace-for-wordpress-databases/>
