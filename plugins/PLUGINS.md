@@ -22,6 +22,9 @@
 - WP-DB-Backup
   <http://wordpress.org/extend/plugins/wp-db-backup/>
 
+- BackupBuddy
+  <http://ithemes.com/purchase/backupbuddy/>
+
 ## Theming
 
 - WPML
