@@ -19,8 +19,8 @@
 - WordPress Backup to Dropbox
   <http://wordpress.org/extend/plugins/wordpress-backup-to-dropbox/>
 
-- WP-DB-Backup
-  <http://wordpress.org/extend/plugins/wp-db-backup/>
+- WP-DB-Manager
+  <http://wordpress.org/extend/plugins/wp-dbmanager/>
 
 - BackupBuddy
   <http://ithemes.com/purchase/backupbuddy/>
