@@ -16,14 +16,14 @@
 
 ## Backup
 
-- WordPress Backup to Dropbox
-  <http://wordpress.org/extend/plugins/wordpress-backup-to-dropbox/>
+- BackupBuddy
+  <http://ithemes.com/purchase/backupbuddy/>
+
+- WP-DB-Backup
+  <http://wordpress.org/extend/plugins/wp-db-backup/>
 
 - WP-DB-Manager
   <http://wordpress.org/extend/plugins/wp-dbmanager/>
-
-- BackupBuddy
-  <http://ithemes.com/purchase/backupbuddy/>
 
 ## Theming
 
