@@ -96,3 +96,6 @@
 
 - Search & Replace
   <http://interconnectit.com/124/search-and-replace-for-wordpress-databases/>
+
+- Uploads by Proxy
+  <http://wordpress.org/extend/plugins/uploads-by-proxy/>
