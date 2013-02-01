@@ -3,23 +3,23 @@
 /**
  * Helper functions to reduce typing
  */
-function sd (){ echo rootRelative(get_bloginfo('stylesheet_directory')); }
-function ln ($id){ echo rootRelative(get_permalink($id)); }
+function sd (){ echo root_relative(get_bloginfo('stylesheet_directory')); }
+function ln ($id){ echo root_relative(get_permalink($id)); }
 
 /**
  * Normalises the bloginfo Url with or without WPML and removes the trailing slash
  */
-function url (){ echo rootRelative(preg_replace('@/$@', '', get_bloginfo('url'))); }
+function url (){ echo root_relative(preg_replace('@/$@', '', get_bloginfo('url'))); }
 
 /**
  * Removes server and hostname from the Url and permalinks
  */
-function rootRelative ($input) {
+function root_relative ($input) {
   return preg_replace('!http(s)?://' . $_SERVER['SERVER_NAME'] . '/!', '/', $input);
 }
 
 function root_relative_permalinks ($input) {
-  rootRelative($input);
+  root_relative($input);
 }
 
 add_filter('the_permalink', 'root_relative_permalinks');
@@ -30,7 +30,7 @@ add_filter('the_permalink', 'root_relative_permalinks');
  * @param string $content
  * @return string
  */
-function fixAbsoluteUrls ($content) {
+function fix_absolute_urls ($content) {
   global $env;
   global $env_config;
 
@@ -43,7 +43,7 @@ function fixAbsoluteUrls ($content) {
   return str_replace($all_urls, $env->url, $content);
 }
 
-add_filter('the_content', 'fixAbsoluteUrls');
+add_filter('the_content', 'fix_absolute_urls');
 
 
 /**
@@ -254,9 +254,9 @@ function iln ($id) {
     if ($langId == null)
       $langId = icl_object_id($id, 'page');
 
-    return rootRelative(get_permalink($langId));
+    return root_relative(get_permalink($langId));
   } else {
-    return rootRelative(get_permalink($id));
+    return root_relative(get_permalink($id));
   }
 }
 
