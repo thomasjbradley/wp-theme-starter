@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Sets up the theme's localisation
+ * Sets up the theme's localization
  */
 load_theme_textdomain('tjbdev', TEMPLATEPATH . '/locale');
 
