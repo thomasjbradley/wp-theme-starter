@@ -18,10 +18,33 @@ function rootRelative ($input) {
   return preg_replace('!http(s)?://' . $_SERVER['SERVER_NAME'] . '/!', '/', $input);
 }
 
-add_filter('the_permalink', 'root_relative_permalinks');
 function root_relative_permalinks ($input) {
   rootRelative($input);
 }
+
+add_filter('the_permalink', 'root_relative_permalinks');
+
+/**
+ * Searches and replaces in the_content of a post for absolute URLs
+ * Will transform development URLs into production URLs before output
+ * @param string $content
+ * @return string
+ */
+function fixAbsoluteUrls ($content) {
+  global $env;
+  global $env_config;
+
+  $all_urls = array();
+
+  foreach($env_config as $v) {
+    $all_urls[] = $v['url'];
+  }
+
+  return str_replace($all_urls, $env->url, $content);
+}
+
+add_filter('the_content', 'fixAbsoluteUrls');
+
 
 /**
  * Encoding mime types from attachments into classes
