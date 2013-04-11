@@ -41,6 +41,9 @@
 - WP Smush.it
   <http://wordpress.org/extend/plugins/wp-smushit/>
 
+- Attachments
+  <https://github.com/jchristopher/attachments>
+
 - Unattach
   <http://wordpress.org/extend/plugins/unattach/>
 
