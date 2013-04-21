@@ -100,5 +100,8 @@
 - Search & Replace
   <http://interconnectit.com/124/search-and-replace-for-wordpress-databases/>
 
+- WP Migrate DB Pro
+  <http://deliciousbrains.com/wp-migrate-db-pro/>
+
 - Uploads by Proxy
   <http://wordpress.org/extend/plugins/uploads-by-proxy/>
