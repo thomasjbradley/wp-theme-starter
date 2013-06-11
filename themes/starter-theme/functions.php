@@ -40,7 +40,7 @@ function fix_absolute_urls ($content) {
     $all_urls[] = $v['url'];
   }
 
-  return str_replace($all_urls, $env->url, $content);
+  return str_replace($all_urls, $env['url'], $content);
 }
 
 add_filter('the_content', 'fix_absolute_urls');
