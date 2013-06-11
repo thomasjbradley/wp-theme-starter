@@ -20,8 +20,8 @@ $env = $env_config[$_SERVER['HTTP_HOST']];
 
 define('WP_DEBUG', (bool)getenv('WP_DEBUG'));
 
-define('WP_HOME', $env->url);
-define('WP_SITEURL', $env->url);
+define('WP_HOME', $env['url']);
+define('WP_SITEURL', $env['url']);
 
 define('DB_NAME', getenv('WP_DB_NAME'));
 define('DB_USER', getenv('WP_DB_USER'));
