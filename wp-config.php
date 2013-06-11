@@ -16,7 +16,7 @@ $env_config = array(
   )
 );
 
-$env = $domains[$_SERVER['HTTP_HOST']];
+$env = $env_config[$_SERVER['HTTP_HOST']];
 
 define('WP_DEBUG', (bool)getenv('WP_DEBUG'));
 
