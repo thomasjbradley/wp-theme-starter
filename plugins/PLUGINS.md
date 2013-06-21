@@ -14,6 +14,9 @@
 - Omni Secure Files
   <http://wordpress.org/extend/plugins/omni-secure-files/>
 
+- Adminize
+  <http://wordpress.org/plugins/adminimize/>
+
 ## Backup
 
 - BackupBuddy
