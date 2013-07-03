@@ -73,6 +73,9 @@
 - Cimy User Extra Fields
   <http://wordpress.org/extend/plugins/cimy-user-extra-fields/>
 
+- Post Snippets
+  <http://wordpress.org/plugins/post-snippets/>
+
 ## Performance
 
 - W3 Total Cache
