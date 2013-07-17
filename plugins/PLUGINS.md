@@ -111,3 +111,7 @@
 
 - Uploads by Proxy
   <http://wordpress.org/extend/plugins/uploads-by-proxy/>
+
+## More plugins
+
+- https://github.com/retlehs/roots/blob/master/doc/plugins.md
