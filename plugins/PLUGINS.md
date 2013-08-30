@@ -84,6 +84,9 @@
 - WP-Optimize
   <http://wordpress.org/extend/plugins/wp-optimize/>
 
+- HyperDB
+  <http://wordpress.org/plugins/hyperdb/>
+
 ## SEO & Analytics
 
 - WordPress SEO by Yoast
