@@ -8,6 +8,7 @@ Includes the basic files and setup I use for creating a WordPress theme. Also in
 
 ## Theme starters
 
+- http://generatewp.com/
 - http://www.rootstheme.com/
 - http://underscores.me/
 - http://themble.com/bones/
