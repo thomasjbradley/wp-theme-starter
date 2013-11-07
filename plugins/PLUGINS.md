@@ -17,6 +17,9 @@
 - Adminize
   <http://wordpress.org/plugins/adminimize/>
 
+- Better WP Security
+  <http://wordpress.org/plugins/better-wp-security/>
+
 ## Backup
 
 - BackupBuddy
@@ -53,6 +56,9 @@
 - Shiba Media Library
   <http://shibashake.com/wordpress-theme/media-library-plus-plugin>
 
+- Custom Upload Directory
+  <http://wordpress.org/plugins/custom-upload-dir/>
+
 ## Forms & Fields
 
 - Gravity Forms
@@ -76,6 +82,9 @@
 - Post Snippets
   <http://wordpress.org/plugins/post-snippets/>
 
+- Shortcodes Ultimate for WordPress
+  <http://gndev.info/shortcodes-ultimate/>
+
 ## Performance
 
 - W3 Total Cache
@@ -86,6 +95,9 @@
 
 - HyperDB
   <http://wordpress.org/plugins/hyperdb/>
+
+- Quick Cache
+  <http://wordpress.org/plugins/quick-cache/>
 
 ## SEO & Analytics
 
