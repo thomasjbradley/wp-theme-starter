@@ -42,6 +42,15 @@
 - Theme My Login
   <http://wordpress.org/extend/plugins/theme-my-login/>
 
+- Reveal IDs
+  <http://wordpress.org/plugins/reveal-ids-for-wp-admin-25/>
+
+- Featured Image Column
+  <http://wordpress.org/plugins/featured-image-column/>
+
+- Page Template Info
+  <https://github.com/tommcfarlin/page-template-info>
+
 ## Media
 
 - WP Smush.it
@@ -58,6 +67,9 @@
 
 - Custom Upload Directory
   <http://wordpress.org/plugins/custom-upload-dir/>
+
+- Drag & Drop Feature Image
+  <http://wordpress.org/plugins/drag-drop-featured-image/>
 
 ## Forms & Fields
 
