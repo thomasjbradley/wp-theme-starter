@@ -11,7 +11,7 @@
 
 ## Theming
 
-- *[PolyLang](http://polylang.wordpress.com/)*
+- **[PolyLang](http://polylang.wordpress.com/)**
 - [WPML](http://wordpress.org/extend/plugins/sitepress-multilingual-cms/)
 - [Members](http://wordpress.org/extend/plugins/members/)
 - [Theme My Login](http://wordpress.org/extend/plugins/theme-my-login/)
@@ -30,7 +30,7 @@
 ## Forms & Fields
 
 - **[Advanced Custom Fields](http://wordpress.org/extend/plugins/advanced-custom-fields/)**
-- *[Gravity Forms](http://www.gravityforms.com/)*
+- **[Gravity Forms](http://www.gravityforms.com/)**
 - [Contact Form 7](https://wordpress.org/plugins/contact-form-7/)
 - [CForms](http://www.deliciousdays.com/cforms-plugin/)
 - [Cimy User Extra Fields](http://wordpress.org/extend/plugins/cimy-user-extra-fields/)
@@ -39,9 +39,10 @@
 
 ## Performance
 
-- **[WP Super Cache](https://wordpress.org/plugins/wp-super-cache/)**
+- **[W3 Total Cache](http://wordpress.org/extend/plugins/w3-total-cache/)**
 - **[WP-Optimize](http://wordpress.org/extend/plugins/wp-optimize/)**
-- [W3 Total Cache](http://wordpress.org/extend/plugins/w3-total-cache/)
+- **[CloudFlare](http://wordpress.org/plugins/cloudflare/)**
+- [WP Super Cache](https://wordpress.org/plugins/wp-super-cache/)
 - [HyperDB](http://wordpress.org/plugins/hyperdb/)
 
 ## SEO & Analytics
@@ -53,10 +54,9 @@
 ## Misc.
 
 - **[Search & Replace](http://interconnectit.com/124/search-and-replace-for-wordpress-databases/)**
-- *[WP CLI](http://wp-cli.org/)*
-- *[CloudFlare](http://wordpress.org/plugins/cloudflare/)*
+- **[Jetpack](http://jetpack.me/)**
+- **[WP CLI](http://wp-cli.org/)**
 - [WP Migrate DB Pro](http://deliciousbrains.com/wp-migrate-db-pro/)
-- [Jetpack](http://jetpack.me/)
 - [Developer](http://wordpress.org/plugins/developer/)
 - [Uploads by Proxy](http://wordpress.org/extend/plugins/uploads-by-proxy/)
 
