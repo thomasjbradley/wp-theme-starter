@@ -59,12 +59,13 @@
 - **[Search & Replace](http://interconnectit.com/124/search-and-replace-for-wordpress-databases/)**
 - **[Jetpack](http://jetpack.me/)**
 - **[WP CLI](http://wp-cli.org/)**
+- [Custom Bulk/Quick Edit by Aihrus](https://wordpress.org/plugins/custom-bulkquick-edit/)
 - [WP Migrate DB Pro](http://deliciousbrains.com/wp-migrate-db-pro/)
 - [Developer](http://wordpress.org/plugins/developer/)
 - [Uploads by Proxy](http://wordpress.org/extend/plugins/uploads-by-proxy/)
 
 ---
 
-## Currated List
+## Currated Lists
 
 - [Tidy Repo](http://tidyrepo.com/)
