@@ -54,12 +54,16 @@
 - [Google Analyticator](http://wordpress.org/extend/plugins/google-analyticator/)
 - [Quick Redirect](http://wordpress.org/extend/plugins/quick-pagepost-redirect-plugin/)
 
+## Categories
+
+- [Custom Bulk/Quick Edit by Aihrus](https://wordpress.org/plugins/custom-bulkquick-edit/)
+- [Categories Metabox Enhanced](https://wordpress.org/plugins/categories-metabox-enhanced/)
+
 ## Misc.
 
 - **[Search & Replace](http://interconnectit.com/124/search-and-replace-for-wordpress-databases/)**
 - **[Jetpack](http://jetpack.me/)**
 - **[WP CLI](http://wp-cli.org/)**
-- [Custom Bulk/Quick Edit by Aihrus](https://wordpress.org/plugins/custom-bulkquick-edit/)
 - [WP Migrate DB Pro](http://deliciousbrains.com/wp-migrate-db-pro/)
 - [Developer](http://wordpress.org/plugins/developer/)
 - [Uploads by Proxy](http://wordpress.org/extend/plugins/uploads-by-proxy/)
