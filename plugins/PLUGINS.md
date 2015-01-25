@@ -3,11 +3,14 @@
 ## Security
 
 - **[Better WP Security](http://wordpress.org/plugins/better-wp-security/)**
+- [Wordfence](http://www.wordfence.com/)
 - [Adminize](http://wordpress.org/plugins/adminimize/)
 
 ## Backup
 
 - [BackupBuddy](http://ithemes.com/purchase/backupbuddy/)
+- [BackWPup Free](https://wordpress.org/plugins/backwpup/)
+- [VaultPress](http://vaultpress.com/)
 
 ## Theming
 
