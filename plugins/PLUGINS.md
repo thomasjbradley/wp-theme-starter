@@ -16,11 +16,15 @@
 
 - **[PolyLang](http://polylang.wordpress.com/)**
 - [WPML](http://wordpress.org/extend/plugins/sitepress-multilingual-cms/)
+ 
+## Admin
+
 - [Members](http://wordpress.org/extend/plugins/members/)
 - [Theme My Login](http://wordpress.org/extend/plugins/theme-my-login/)
 - [Reveal IDs](http://wordpress.org/plugins/reveal-ids-for-wp-admin-25/)
 - [Featured Image Column](http://wordpress.org/plugins/featured-image-column/)
 - [Page Template Info](https://github.com/tommcfarlin/page-template-info)
+- [Bring Back Admin Menu Separators](https://wordpress.org/plugins/bring-back-admin-menu-seperators/)
 
 ## Media
 
