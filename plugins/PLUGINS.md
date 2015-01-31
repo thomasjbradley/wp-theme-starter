@@ -31,6 +31,8 @@
 - **[WP Smush.it](http://wordpress.org/extend/plugins/wp-smushit/)**
 - [Attachments](https://github.com/jchristopher/attachments)
 - [Unattach](http://wordpress.org/extend/plugins/unattach/)
+- [Admin Columns](https://wordpress.org/plugins/codepress-admin-columns/)
+- [Admin Menu Editor](https://wordpress.org/plugins/admin-menu-editor/)
 - [Custom Upload Directory](http://wordpress.org/plugins/custom-upload-dir/)
 - [Drag & Drop Feature Image](http://wordpress.org/plugins/drag-drop-featured-image/)
 
