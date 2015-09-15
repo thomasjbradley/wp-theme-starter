@@ -28,7 +28,8 @@
 
 ## Media
 
-- **[WP Smush.it](http://wordpress.org/extend/plugins/wp-smushit/)**
+- [WP Smush](http://wordpress.org/extend/plugins/wp-smushit/)
+- [Optimus](https://optimus.io/en/)
 - [Attachments](https://github.com/jchristopher/attachments)
 - [Unattach](http://wordpress.org/extend/plugins/unattach/)
 - [Admin Columns](https://wordpress.org/plugins/codepress-admin-columns/)
