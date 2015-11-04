@@ -80,3 +80,4 @@
 ## Currated Lists
 
 - [Tidy Repo](http://tidyrepo.com/)
+- [CSS-Tricks](https://css-tricks.com/wordpress-plugins-we-use-3rd-edition/)
